@@ -1,0 +1,160 @@
+﻿<Spells><List>	               
+<!--自创符咒-->
+
+
+        <Spell Name="Spell_XianShen1">
+                <DisplayName>仙神符</DisplayName>
+                <Desc>修仙专用符。</Desc>
+                <Template>Spell/main_texture_qingshen01</Template>
+<BaseFive>80,80,80,80,80</BaseFive><!--五围，必全满-->
+                <Effects>
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="50000"/><!--自寻：根本法宝威力加成-->
+			<li Name="NpcFight_ShieldConversionRate" BAddP="500"/><!--自寻：根本护盾加强值-->
+			<li Name="NpcFight_SneakValue" AddV="2000"/> <!--自寻：降低隐匿值-->
+			<li Name="MoveSpeed" AddP="0.5"/><!--移动速度-->
+			<li Name="WorldMapFlySpeedAddP" AddV="50"/><!--历练飞剑速度-->
+			<li Name="VisionRadius" AddP="0.15"/><!--提高视野范围-->
+			<li Name="ExperienceFindSpeedAddV" AddV="0.5"/><!--提高历练时发现新地点的速度-->
+			<li Name="PracticeFoodRecoveryConstant" AddV="20"/><!--精元补充加层-->
+			<li Name="PracticeFoodRecoveryConstant" AddP="200"/><!--精元补充加层-->
+			<li Name="DeepPracticeSpeedSpecialCoefficient" AddP="2"/><!--修练速度-->
+			<li Name="FabaoMake_SuccessRateAddV" AddV="50"/><!--法宝成功值-->
+			<li Name="FabaoMake_LingInheritRateAddV" AddV="50"/><!--法宝品阶-->
+			<li Name="FabaoMake_SpeedAddV" AddV="50"/><!--法宝炼制速度-->
+			<li Name="FabaoMake_TwelveRateChance" AddV="50"/><!--法宝神器炼制-->
+			<li Name="DanMake_SuccessRateAddV" AddV="50"/><!--丹药成功值-->
+			<li Name="DanMake_YieldAddP" AddV="50"/><!--丹药产量-->
+			<li Name="DanMake_SpeedAddV" AddV="50"/><!--丹药炼制速度-->
+			<li Name="PracticeRateAddPFromDan" AddP="5"/><!--瓶颈突破值-->
+			<li Name="IntelligenceSkillEXPConstant" AddP="50"/><!--学习速度-->
+			<li Name="LingAbsorbSpeed" AddP="10"/><!--灵气吸收速度-->
+			<li Name="NpcLingMaxValue" AddV="200"/><!--灵气最大值-->
+			<li Name="NpcLingMaxValue" AddP="200"/><!--灵气最大值--> 
+			<li Name="NpcLingMaxValue" BAddP="200"/><!--从根本上提高灵气最大值--> 
+			<li Name="NeckCountdownAddV" AddV="6480000"/><!--推迟渡劫--> 
+			<li Name="MindStateBaseValue" AddV="100"/><!--心境值-->
+			<li Name="BaseEmotionAddV" AddV="100"/><!--心情值-->
+			<li Name="TreatmentExpectQuality" AddP="10"/><!--治疗效果-->
+			<li Name="TreatSuccessChance" AddP="10"/><!--治疗成功-->
+			<li Name="ComfyTMax" AddV="999"/><!--温度-->
+			<li Name="ToleranceTMax" AddV="999"/><!--温度-->
+			<li Name="ComfyTMin" AddV="-999"/><!--温度-->
+			<li Name="ToleranceTMin" AddV="-999"/><!--温度-->
+			<li Name="MadeQualityAddValue" AddV="100"/><!--制作品质-->
+			<li Name="GlobalEfficiency" AddP="50"/><!--工作速度-->
+			<li Name="PlantHarvestYieldEfficiency" AddP="50"/><!--提高种植收获时的产量-->
+			<li Name="ButcherYieldEfficiency" AddP="50"/><!--提高打猎收获时的产量-->
+			<li Name="SmithingQualityAddValue" AddV="100"/><!--锻造品质-->
+			<li Name="HandworkQualityAddValue" AddV="100"/><!--手工品质-->
+			<li Name="TailoringQualityAddValue" AddV="100"/><!--缝制品质-->
+		</Effects>
+        </Spell>
+   
+
+        <Spell Name="Spell_ZhanXian1">
+                <DisplayName>战仙符</DisplayName>
+                <Desc>仙人打架专用符。</Desc>
+                <Template>Spell/main_texture_qingshen01</Template>
+		<BaseFive>5,5,5,5,5</BaseFive><!--五围-->
+		<Effects>
+			<li Name="PotentialOfBasepracticeAddValue" AddV="5"/><!--潜力-->
+			<li Name="NpcFight_BaseHitChance" AddV="1"/><!--战斗命中-->
+			<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--战斗闪避-->
+			<li Name="PainTolerance" AddP="3"/><!--疼痛极限-->
+			<li Name="NpcFight_FabaoLingRecoverK" AddV="1"/><!--法宝回灵倍率-->
+			<li Name="NpcFight_FabaoLingRecoverAddP" AddP="50"/><!--法宝灵气恢复速度-->
+			<li Name="NpcFight_FabaoMaxLingAddP" AddP="2000"/><!--法宝灵气最大值-->
+			<li Name="NpcFight_FabaoPowerAddP" AddV="15"/><!--法宝威力加层-->
+			<li Name="NpcFight_FabaoPowerAddP" AddP="5"/><!--法宝威力加成-->
+			<li Name="NpcFight_FabaoPowerAddP" BAddP="5"/><!--从根本上提高法宝威力-->
+			<li Name="NpcFight_FabaoFlySpeedAddP" AddP="5"/><!--法宝飞行速度-->
+			<li Name="NpcFight_FabaoTurnSpeedAddP" AddP="5"/><!--法宝转向速度-->
+			<li Name="NpcFight_FabaoTrailingLengthAddP" AddP="5"/><!--法宝拖尾长度-->
+			<li Name="NpcFight_FabaoRepelResistanceAddV" AddV="15"/><!--法宝抗退-->
+			<li Name="NpcFight_FabaoRepelDistanceAddV" AddV="15"/><!--法宝击退-->
+			<li Name="NpcFight_ShieldConversionRate" AddP="5"/><!--护盾加强值-->
+			<li Name="NpcFight_ShieldConversionRateAddP" AddV="20"/><!--护盾加层-->
+			<li Name="NpcFight_SpellPowerAddP" BAddP="10"/><!--根本上提高法术威力-->
+			<li Name="MaxAge" AddV="9999"/><!--提高寿元-->
+			<li Name="NpcFight_SpellPowerAddP" AddP="10"/><!--法术伤害-->
+			<li Name="FatigueConsumeConstant" AddP="-1"/><!--精力消耗--> 
+			<li Name="FatigueRecoveryConstant" AddP="500"/><!--精力补充-->
+			<li Name="GodCity_MaxResident" AddV="50"/><!--提高神民上限-->
+			<li Name="GodCity_PracticeEffect" AddV="5000"/><!--神国信仰获取加成-->
+			<li Name="NutritionWaterAutoRecover" AddV="1.5"/><!--提高饮气辟谷的效率-->
+			<li Name="NutritionToJingYuanK" AddV="20"/><!--提高精元获得的效率-->
+			<li Name="WaterConsumeConstant" AddP="-1"/><!--水消耗-->
+			<li Name="HappyConsumeConstant" AddP="-1"/><!--娱乐消耗-->
+                </Effects>
+		<SkillEffects>
+			<li Name="FightSkill" LevelOver="20"/><!--提高术法技能等级-->
+			<li Name="Fabao" LevelOver="20"/><!--提高御器技能等级-->
+			<li Name="Barrier" LevelOver="20"/><!--提高护体技能等级-->
+			<li Name="DanQi" LevelOver="20"/><!--提高丹器技能等级-->
+			<li Name="DouFa" LevelOver="20"/><!--提高斗法技能等级-->
+			<li Name="Fight" LevelOver="200"/><!--提高战斗技能等级-->
+			<li Name="Qi" LevelOver="200"/><!--提高气感技能等级-->
+			<li Name="SocialContact" LevelOver="200"/><!--提高社交技能等级-->
+			<li Name="Medicine" LevelOver="200"/><!--提高医术技能等级-->
+			<li Name="Cooking" LevelOver="200"/><!--提高厨艺技能等级-->
+			<li Name="Building" LevelOver="200"/><!--提高建筑技能等级-->
+			<li Name="Farming" LevelOver="200"/><!--提高农事技能等级-->
+			<li Name="Mining" LevelOver="200"/><!--提高采掘技能等级-->
+			<li Name="Art" LevelOver="200"/><!--提高艺术技能等级-->
+			<li Name="Manual" LevelOver="200"/><!--提高制造技能等级-->
+		</SkillEffects>
+        </Spell>
+  
+
+	<Spell Name="Spell_XianRen1">
+		<DisplayName>仙人符</DisplayName>
+		<Desc>外门专用符。</Desc>
+		<Template>Spell/main_texture_qingshen01</Template>
+		<BaseFive>5,5,5,5,5</BaseFive>
+		<Effects>
+			<li Name="MoveSpeed" AddP="0.5"/><!--移动速度-->
+			<li Name="MadeQualityAddValue" AddV="100"/><!--制作品质-->
+			<li Name="GlobalEfficiency" AddP="50"/><!--工作速度-->
+			<li Name="PlantHarvestYieldEfficiency" AddP="50"/><!--提高种植收获时的产量-->
+			<li Name="ButcherYieldEfficiency" AddP="50"/><!--提高打猎收获时的产量-->
+			<li Name="SmithingQualityAddValue" AddV="100"/><!--锻造品质-->
+			<li Name="HandworkQualityAddValue" AddV="100"/><!--手工品质-->
+			<li Name="TailoringQualityAddValue" AddV="100"/><!--缝制品质-->
+			<li Name="PotentialOfBasepracticeAddValue" AddV="5"/><!--潜力-->
+			<li Name="NpcFight_BaseHitChance" AddV="1"/><!--战斗命中-->
+			<li Name="NpcFight_BaseDodgeChance" AddV="1"/><!--战斗闪避-->
+			<li Name="PainTolerance" AddP="3"/><!--疼痛极限-->
+			<li Name="ComfyTMax" AddV="999"/><!--温度-->
+			<li Name="ToleranceTMax" AddV="999"/><!--温度-->
+			<li Name="ComfyTMin" AddV="-999"/><!--温度-->
+			<li Name="ToleranceTMin" AddV="-999"/><!--温度-->
+			<li Name="MaxAge" AddV="9999"/><!--提高寿元-->
+			<li Name="BaseEmotionAddV" AddV="100"/><!--心情值-->
+			<li Name="HappyConsumeConstant" AddP="-1"/><!--娱乐消耗-->
+			<li Name="NutritionWaterAutoRecover" AddV="2"/><!--提高饮气辟谷的效率-->
+			<li Name="NutritionConsumeConstant" AddP="-1"/><!--食物消耗-->  
+			<li Name="WaterConsumeConstant" AddP="-1"/><!--水消耗-->
+			<li Name="FatigueConsumeConstant" AddP="-1"/><!--精力消耗-->  
+			<li Name="FatigueRecoveryConstant" AddP="1"/><!--精力补充-->
+                </Effects>
+		<SkillEffects>
+			<li Name="FightSkill" LevelOver="20"/><!--提高术法技能等级-->
+			<li Name="Fabao" LevelOver="20"/><!--提高御器技能等级-->
+			<li Name="Barrier" LevelOver="20"/><!--提高护体技能等级-->
+			<li Name="DanQi" LevelOver="20"/><!--提高丹器技能等级-->
+			<li Name="DouFa" LevelOver="20"/><!--提高斗法技能等级-->
+			<li Name="Fight" LevelOver="200"/><!--提高战斗技能等级-->
+			<li Name="Qi" LevelOver="200"/><!--提高气感技能等级-->
+			<li Name="SocialContact" LevelOver="200"/><!--提高社交技能等级-->
+			<li Name="Medicine" LevelOver="200"/><!--提高医术技能等级-->
+			<li Name="Cooking" LevelOver="200"/><!--提高厨艺技能等级-->
+			<li Name="Building" LevelOver="200"/><!--提高建筑技能等级-->
+			<li Name="Farming" LevelOver="200"/><!--提高农事技能等级-->
+			<li Name="Mining" LevelOver="200"/><!--提高采掘技能等级-->
+			<li Name="Art" LevelOver="200"/><!--提高艺术技能等级-->
+			<li Name="Manual" LevelOver="200"/><!--提高制造技能等级-->
+		</SkillEffects>
+	</Spell>
+
+
+</List>	</Spells>

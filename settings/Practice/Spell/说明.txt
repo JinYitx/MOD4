@@ -1,0 +1,5 @@
+有一个仙神符、战仙符、仙人符（外门用）
+收集了很多代码！
+文件复制到//AmazingCultivationSimulator\Settings\Practice\Spell\
+不用改名字，如果觉得太无耻可以把数据改低一点
+包括5围 后潜  技能等级 等等
